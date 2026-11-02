@@ -1,0 +1,11 @@
+{
+  "domain": "teams_presence",
+  "name": "Microsoft Teams Presence",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

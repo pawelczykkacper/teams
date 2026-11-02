@@ -1,0 +1,17 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "To konto jest już skonfigurowane."
+    },
+    "step": {
+      "pick_implementation": {
+        "title": "Połącz konto Microsoft",
+        "description": "Wybierz poświadczenia aplikacji Microsoft Graph."
+      },
+      "auth": {
+        "title": "Autoryzacja Microsoft",
+        "description": "Zaloguj się kontem służbowym Microsoft 365 i zezwól na odczyt swojej obecności Teams."
+      }
+    }
+  }
+}
