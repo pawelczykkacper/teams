@@ -14,6 +14,10 @@ Mapowanie: `Available` → `online`; `Away`/`BeRightBack` → `away`; `Busy`/`Do
 
 Skopiuj folder `custom_components/teams_presence` do katalogu `config/custom_components/` Home Assistanta i uruchom ponownie Home Assistant.
 
+### Przez HACS
+
+Dodaj `https://github.com/pawelczykkacper/teams` jako repozytorium niestandardowe typu **Integration**, wybierz najnowszą wersję z domyślnej gałęzi i zainstaluj. Następnie uruchom ponownie Home Assistant. Wersja `1726a9d` nie zawierała wymaganego pliku `hacs.json`; po dodaniu repozytorium ponownie pobierz najnowszą wersję.
+
 ## Rejestracja aplikacji Microsoft
 
 1. W Microsoft Entra ID utwórz rejestrację aplikacji typu **Accounts in any organizational directory**.

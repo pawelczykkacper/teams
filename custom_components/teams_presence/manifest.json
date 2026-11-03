@@ -1,9 +1,11 @@
 {
   "domain": "teams_presence",
   "name": "Microsoft Teams Presence",
-  "codeowners": [],
+  "codeowners": ["@pawelczykkacper"],
   "config_flow": true,
   "dependencies": ["application_credentials"],
+  "documentation": "https://github.com/pawelczykkacper/teams",
+  "issue_tracker": "https://github.com/pawelczykkacper/teams/issues",
   "iot_class": "cloud_polling",
   "requirements": [],
   "single_config_entry": true,
